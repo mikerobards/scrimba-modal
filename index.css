@@ -14,10 +14,14 @@ html, body {
       cursor: pointer;
   }
   
-  /** 
-    Our buttons '#open-modal, #close-modal' 
-  
-    1) For the background colour use 'royalblue'
-    2) Be aware of the colour, padding & font size
-    3) Make sure the cursor has a pointer so that it demonstrates to the user the button is clickable
-  **/
+ #modal {
+     background-color: orange;
+     padding: 20px;
+     height: 200px;
+     margin: 0 auto;
+     max-width: 600px;
+ }
+
+ #overlay {
+     display: none;
+ }
